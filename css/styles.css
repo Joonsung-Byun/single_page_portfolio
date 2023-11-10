@@ -314,6 +314,10 @@ template {
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #navWrapper {
   background-color: rgb(86, 116, 252);
   position: sticky;

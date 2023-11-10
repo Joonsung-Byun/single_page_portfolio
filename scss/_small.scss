@@ -5,6 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #navWrapper {
   background-color: $menuColor;
   position: sticky;
