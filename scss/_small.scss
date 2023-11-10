@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#navWrapper {
+  background-color: $menuColor;
+  position: sticky;
+  top: 0;
+    nav { 
+        ul{
+            display: flex;
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            flex: 1;
+        }
+        li.active {
+            background-color: darken($menuColor, 10%);
+        }
+        a {
+            display: block;
+            padding: 0.7rem;
+            text-align: center;
+            text-decoration: none;
+            img {width: 25px; height: auto;}
+            span {display: none; 
+                  color: white;}
+            &:hover {
+                background-color: lighten($menuColor, 10%);
+            }
+        }
+    }
+}
+
+section {
+    padding-top: 4rem;
+    min-height: 100vh;
+    color: white;
+    h1 {
+        margin: 0;
+    }
+}
+
+#one {
+    background-color: $secondColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {   
+        text-align: center;
+        h1 {
+            font-size: 2rem;
+            padding-bottom: .5rem;
+        }
+        h4 {
+            font-weight: 400;
+        }
+    }
+}
+
+#two {
+    background-color: $firstColor;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#three {
+    background-color: $thirdColor;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#four {
+    background-color: $fourthColor;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cards {
+        width: 100%;
+    }
+    figure {
+        width: 100%;
+        max-width: 500px;
+        img {
+            width: 90%;
+        }
+    }
+}
+
+#five {
+    background-color: $fifthColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        text-align: center;
+        margin: 20px;
+    }
+    #sns {
+        display: flex;
+        gap: 1rem;
+        div{
+            width: 20%;
+            margin: 20px auto;
+            img{
+                display: block;
+                // width: 100%;
+                // height: auto;
+                max-width: 60px;
+            }
+            a{
+                padding-top: .4rem;
+                color: white;
+            }
+        }
+    }
+}
+
+div.cards {
+    padding: 0 .5rem;
+    figure {
+        border: 1px solid white;
+        border-radius: 8px;
+        width: 90%;
+        display: block;
+        margin: 20px auto;
+        figcaption {
+            text-align: center;
+            padding: .5rem;
+            font-weight: 500;
+            font-size: 1.3rem;
+        }
+        img{
+            margin: 0 auto;
+            display: block;
+            width: 90%;
+            height: auto;
+        }
+        button{
+            text-align: center;
+            padding: .5rem 2rem;
+            margin: 10px auto;
+            display: block;
+            background-color: rgba(232, 232, 232, 0.397);
+            border: none;
+            border-radius: 10px;
+        }
+        a{text-decoration: none;
+        color: black;
+        display: block;
+        }
+    }
+}
+
+#footerWrapper {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+

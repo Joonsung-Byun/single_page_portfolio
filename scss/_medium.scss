@@ -1,0 +1,51 @@
+#navWrapper {
+      nav { 
+          a {
+              img {display: none;}
+              span {display: block; text-decoration: none; color: white;} 
+          }
+      }
+  }
+
+  //하나 배웠다. medium에서 할때 정확히 #navWrapper도 껴야함
+  #one {
+    div {   
+        h1 {
+            font-size: 2.3rem;
+        }
+        h4 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+div.cards {
+    padding: 0 .5rem;
+    figure {
+        border: 1px solid white;
+        border-radius: 8px;
+        max-width: 70%;
+        display: block;
+        margin: 20px auto;
+        img{
+            margin: 0 auto;
+            display: block;
+            width: 90%;
+            height: auto;
+        }
+    }
+}
+
+#five {
+    #sns {
+        gap: 1.5rem;
+        div{
+            img{
+                display: block;
+                // width: 100%;
+                // height: auto;
+                max-width: 80px;
+            }
+        }
+    }
+}
